@@ -28,7 +28,7 @@ This project is a genetic algorithm designed to match a target string. The algor
 
 1. Run the program using:
    ```bash
-   python algo.py --filename {file_name.txt}
+   python algo.py --filename {target.txt}
    # note: This will default to use the first txt file in local directory if input is none or not found.
 2. The program will start generating and evolving a population of strings until it reaches stopping conditions and the fitness score of the best individual per generation will be printed.
 3. If an exact match is found, the algorithm will print the final best match and stop.
